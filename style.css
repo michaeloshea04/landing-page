@@ -1,0 +1,46 @@
+
+#navbar{
+    background-color: #1F2937;
+}
+
+#section1{
+    background-color: #1F2937;
+}
+
+#heroMainText{
+    size: 48px;
+    color: #F9FAF8;
+}
+
+#headerLogoText{
+    size: 24px;
+    color: #F9FAF8;
+}
+
+#section2{
+    border: red;
+    text-align: center;
+}
+
+#section4{
+    background-color: #3882F6;
+    border: 20px;
+    border-radius: 8px;
+    color: #F9FAF8;
+      
+}
+
+.flex-container {
+    display: flex;
+  }
+    
+  .box1 {    
+    flex: 1 1 0%;
+    border: 2px solid red;
+  }
+  
+  .box2 {
+    background-color: #3882F6;
+    border: 2px solid white
+    
+  }
