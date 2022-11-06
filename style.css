@@ -1,46 +1,233 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
 
-#navbar{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
 }
 
-#section1{
-    background-color: #1F2937;
-}
 
-#heroMainText{
-    size: 48px;
-    color: #F9FAF8;
-}
 
-#headerLogoText{
+.header-logo-text{
     size: 24px;
     color: #F9FAF8;
+    text-align: left;
+    border: 2px solid #3882F6;
+    border-radius: 5px;  
 }
 
-#section2{
-    border: red;
+.header-logo-text:hover{
+    border: 4px solid orange;
+  transform: rotate(360deg);
+  transition: all 2.0s;
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.link-items{
+    display: flex;
+    align-items: center;
     text-align: center;
+    list-style: none;
+    color: #c3d0ea;
+    margin-left: auto;
+  margin-right: 12px;
 }
 
-#section4{
+.link-items a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 16px;
+  }
+
+  .link-items a:hover{
+    background-color: #3882F6;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    
+  }
+
+
+/*Section 1*/
+.section1-container{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    text-align: left;
+    padding: 50px;
+}
+
+.heroLeftItem{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 30%;
+    padding-right: 20px;
+    
+}
+
+.heroMainText{
+    size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.heroPara{
+    color: #c3d0ea;
+}
+
+.heroButton{
+    background-color: #3882F6;
+    color: #c3d0ea;
+    width: 100px;
+    border: #3882F6;
+    border-radius: 15px;
+}
+
+.heroImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: #3882F6 solid 12px;
+    border-radius: 32px;
+    margin: 5px 20px 0px 20px;
+}
+
+
+
+/*Section 3*/
+.random-info-container{
+    align-items: center;
+}
+
+.images-container{
+    display: flex;    
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 0px 24px 96px 24px;    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 8px;
+    padding: 24px;  
+    color: #1F2937;
+    
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: #3882F6 solid 12px;
+    border-radius: 32px;
+    margin: 5px 20px 0px 20px;
+    
+  }
+
+  .para{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+/*Section 3*/
+.quote-container{
+    background-color: #c3d0ea;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote-text{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: #1F2937;   
+    
+}
+
+#para-text{
+    text-align: left;
+    width: 25em;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+.quote-author{
+    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#para-author{
+    text-align: right;
+    width: 30em;
+    font-weight: bold;
+    
+}
+
+
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
     background-color: #3882F6;
     border: 20px;
     border-radius: 8px;
     color: #F9FAF8;
-      
-}
+    padding: 50px;
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+  } 
 
-.flex-container {
+.header-text{
     display: flex;
-  }
+    flex-direction: column;
+    margin: 20px;
     
-  .box1 {    
-    flex: 1 1 0%;
-    border: 2px solid red;
-  }
-  
-  .box2 {
+}   
+
+.mybutton{
+    display: flex;
+    justify-content: flex-end;
     background-color: #3882F6;
-    border: 2px solid white
     
+  }
+
+  .footer-container{
+      background-color: #1F2937;
+      color: #F9FAF8;
+      display: flex;
+      justify-content: center;
   }

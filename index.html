@@ -17,69 +17,81 @@
 <body> 
 
     
-    <nav id="navbar">
-        <h3 id="headerLogoText">Header Logo</h3>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-    </nav>
+    <div class="navbar-container">
+        <div class="header-logo-text">
+            <h3>Header Logo</h3>
+        </div>
+        
+        <ul class="link-items">
+            <li><a>header link one</a></li>
+            <li><a>header link two</a></li>
+            <li><a>header link three</a></li>
+            
+        </ul>        
+    </div>
 
-    <section id="section1">
-        <h1 id="heroMainText">This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-        <img>
-
-    </section>
+    <div class="section1-container">
+        <div class="heroLeftItem">
+            <h1 class="heroMainText">This website is awesome</h1>
+            <p class="heroPara">This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower contrast.</p>
+            <button class="heroButton">Sign up</button>
+        </div>
+        <img class="heroImage" src="/images/pexels-andrea-piacquadio-3777931.jpg">
+    </div>
     
-    <section id="section2">
-        <h2>Some random information.</h2>
-        <div>
-            <p>this is some subtext under an illustration or image</p>
+    
+    <div class="random-info-container">
+        <h2 class="header-text">Some random information.</h2>
+        
 
-        </div>
+        <div class="images-container">
+            <div class="item">
+                <img class="image" src="/images/pexels-katho-mutodo-8434791.jpg">
+                <div class="para"><p>this is some subtext under an illustration or image</p></div>
+            </div>
+            <div class="item">
+                <img class="image" src="/images/pexels-katho-mutodo-8434791.jpg">
+                <div class="para"><p>this is some subtext under an illustration or image</p></div>
+            </div>
+            <div class="item">
+                <img class="image" src="/images/pexels-katho-mutodo-8434791.jpg">
+                <div class="para"><p>this is some subtext under an illustration or image</p></div>
+            </div>
+            <div class="item">
+                <img class="image" src="/images/pexels-katho-mutodo-8434791.jpg">
+                <div class="para"><p>this is some subtext under an illustration or image</p></div>
+            </div>
 
-        <div>
-            <p>this is some subtext under an illustration or image</p>
+        </div>    
+        
+        
+    </div>
 
-        </div>
-
-        <div>
-            <p>this is some subtext under an illustration or image</p>
-
-        </div>
-
-        <div>
-            <p>this is some subtext under an illustration or image</p>
-
-        </div>
-
-    </section>
+    
     
 
 </section>
 
-    <section id="section3">
-        <p>This is an inspiring quote, or a testimonail from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>       
-
+    <div class="quote-container">
+        <div class="quote-text"><p id="para-text">This is an inspiring quote, or a testimonail from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</p></div>
+        <div class="quote-author"><p id="para-author">-Thor, God of Thunder</p></div>
+    </div>
         
 
-    <section id="section4">
-        <div class="flex-container">
-            <div class="box1">
-                <h3>Call to action! It's time!</h2>
-                <p>Sign up for our product by clicking that button right over there!</p>
+    
+        <div class="call-to-action-container">
+            <div class="header-text">
+                <div class="call"><h3>Call to action! It's time!</h2></div>
+                <div class="sign-up"><p>Sign up for our product by clicking that button right over there!</p></div>
             </div>
-            <button class="box2">Sign up</button>
+            <button class="myButton" type="button">Sign up</button>
         </div>
-
-    </section>
+    
 
     
 
 
-    <footer id="footer">
+    <footer class="footer-container">
         Copyright c The Odin Project 2021
     </footer>
 
